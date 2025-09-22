@@ -32,13 +32,13 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m an indie app developer based in Japan!
+        Halo, 我是朱浩宇来自中国, 欢迎来到我的个人网站!
       </Box>
 
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Takuya Matsuyama
+            朱浩宇
           </Heading>
           <p>Digital Craftsman ( Artist / Developer / Designer )</p>
         </Box>
@@ -112,22 +112,16 @@ const Home = () => (
           Bio
         </Heading>
         <BioSection>
-          <BioYear>1984</BioYear>
-          Born in Osaka (大阪), Japan.
+          <BioYear>2020</BioYear>
+          完成集美大学船舶电子电气工程专业的本科学业
         </BioSection>
         <BioSection>
-          <BioYear>2010</BioYear>
-          Completed the Master&apos;s Program in the Graduate School of
-          Information Science at Nara Institute of Science and Technology
-          (奈良先端科学技術大学院大学情報科学研究科修士課程)
+          <BioYear>2020</BioYear>
+          软件工程师 @{'Spring'} @{'机器人ROS'} @{'小程序'}
         </BioSection>
         <BioSection>
-          <BioYear>2010</BioYear>
-          Worked at Yahoo! Japan (ヤフー株式会社入社)
-        </BioSection>
-        <BioSection>
-          <BioYear>2012 to present</BioYear>
-          Working as a freelancer
+          <BioYear>2024 to present</BioYear>
+          自由职业者
         </BioSection>
       </Section>
 
@@ -136,15 +130,8 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Art, Music,{' '}
-          <Link href="https://illust.odoruinu.net/" target="_blank">
-            Drawing
-          </Link>
-          , Playing Drums,{' '}
-          <Link href="https://500px.com/p/craftzdog" target="_blank">
-            Photography
-          </Link>
-          , Leica, Machine Learning
+          计算机, 音乐
+          , 汽车，户外
         </Paragraph>
       </Section>
 
@@ -154,24 +141,24 @@ const Home = () => (
         </Heading>
         <List>
           <ListItem>
-            <Link href="https://github.com/craftzdog" target="_blank">
+            <Link href="https://github.com/NZhy28" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoGithub />}
               >
-                @craftzdog
+                @NZhy28
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/inkdrop_app" target="_blank">
+            <Link href="https://x.com/quex1861929" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoTwitter />}
               >
-                @inkdrop_app (English)
+                @quex1
               </Button>
             </Link>
           </ListItem>
@@ -187,13 +174,13 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://instagram.com/craftzdog" target="_blank">
+            <Link href="https://www.instagram.com/newxxr" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoInstagram />}
               >
-                @craftzdog
+                @newxxr
               </Button>
             </Link>
           </ListItem>
